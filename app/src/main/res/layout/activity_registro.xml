@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/transfagaran3"
+    tools:context=".Registro">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_reg"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        >
+
+        <!-- TextView para el título centrado -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreApp"
+            android:textColor="@color/azul_claro"
+            android:textSize="40sp"
+            android:layout_gravity="center" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="368dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/iconoromania2" />
+
+    <TextView
+        android:id="@+id/txtRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRegistro"
+        android:textColor="@color/white"
+        android:background="@color/azul_claro"
+        android:gravity="center"
+        android:textSize="35dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtUsuario_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario_reg"
+            android:textColor="@color/black"
+            android:background="@color/gris_claro"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPassword_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="@string/password_reg"
+            android:background="@color/gris_claro"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRegistro"
+        android:backgroundTint="@color/azul_claro"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/linkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linkLogin"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/azul"
+        android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "861124018396",
+    "project_id": "saborarumania1",
+    "storage_bucket": "saborarumania1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861124018396:android:33d1105280e65d90c63419",
+        "android_client_info": {
+          "package_name": "com.example.sabor_a_rumania_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF1uDGxd45l6kijxRRLdJ8W2inIMwrTDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

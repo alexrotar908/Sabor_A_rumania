@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">sabor_a_rumania_1</string>
+
+    <string name="imgLogo" />
+    <string name="nombreApp">Sabor a Rumanía</string>
+
+    <!-- Login layout -->
+    <string name="txtLogin">Iniciar Sesión</string>
+    <string name="usuario_log">Usuario(Correo)</string>
+    <string name="password_log">Contraseña</string>
+
+    <string name="btnLogin">Login</string>
+    <string name="linkRegistro">Registrarse</string>
+
+    <!-- Registro layout -->
+
+    <string name="txtRegistro">Registrarse</string>
+    <string name="usuario_reg">Usuario(Correo)</string>
+    <string name="password_reg">Contraseña</string>
+
+    <string name="btnRegistro">Registro</string>
+    <string name="linkLogin">Iniciar Sesión</string>
+
+    <!-- pagina principal -->
+    <string name="imgMapa" />
+    <string name="imgCatalogo" />
+    <string name="btnLocales">Mapa</string>
+    <string name="btnCatalgo">Cátalogo</string>
+
+    <!-- pantalla mapa-->
+    <string name="titulo_mapa">Restaurantes y Tiendas</string>
+
+    <string name="imgMapa_Logo"/>
+</resources>

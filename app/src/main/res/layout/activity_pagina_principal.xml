@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/transfagaran3"
+    tools:context=".Home.Pagina_Principal">
+
+    <include
+        android:id="@+id/toolbar_home"
+        layout="@layout/toolbar_home"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/imgMapa"
+            android:layout_width="259dp"
+            android:layout_height="174dp"
+            app:srcCompat="@drawable/iconomapa" />
+
+        <Button
+            android:id="@+id/btnLocales"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/azul"
+            android:text="@string/btnLocales"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imgCatalogo"
+            android:layout_width="342dp"
+            android:layout_height="117dp"
+            app:srcCompat="@drawable/catalogo" />
+
+        <Button
+            android:id="@+id/btCatalogo"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/azul"
+            android:text="@string/btnCatalgo"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
